@@ -73,9 +73,13 @@ a:active {
 
 .sidebar-frame {
     position:fixed;
-    float: left;
+    top: 0.5vw;
+    left: 0.5vw;
     width: 15vw;
+    height: 100%;
+
     border: none;
+    overflow: hidden;
 }
 
 .sidebar {
@@ -93,6 +97,7 @@ a:active {
 }
 
 .content {
+    font-size: 1vw;
     text-align: left;
     padding-left: 16vw;
 }
