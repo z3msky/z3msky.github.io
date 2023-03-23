@@ -38,16 +38,19 @@ a:active {
 .fixed-header, .fixed-footer{
     width: 100%;
     position: fixed;
-    background: #333;
+    left: 0px;
+    background: lightgray;
     padding: 10px 0;
-    color: #fff;
+
+    color: black;
+    text-align: center;
+    font-size: 0.5vw;
 }
 
 .fixed-header{
     border: 5px inset blue;
     top: 0px;
     height: 60px;
-    left: 0px;
     
     padding-left: 1%;
 }
@@ -75,6 +78,7 @@ a:active {
     text-align: left;
     font-size: 5vw;
 
+    padding-left: 2vw;
     margin-top: 3%;
     border: 5px inset red;
     background-color: lightblue;
