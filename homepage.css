@@ -19,6 +19,11 @@ a:active {
 
 }
 
+hr {
+    color: lightpink;
+    size: 1px;
+}
+
 .splash {
     background-color: whitesmoke;
 }
@@ -56,6 +61,7 @@ a:active {
 }
 
 .fixed-footer{
+    height:1vh;
     bottom: 0;
 }
 
@@ -64,7 +70,7 @@ a:active {
     top: 0.5vw;
     left: 0.5vw;
     width: 15vw;
-    height: 100%;
+    height: 100vh;
 
     border: none;
     overflow: hidden;
@@ -86,7 +92,15 @@ a:active {
 }
 
 .content {
+    position:fixed;
+
+    left: 15.1vw;
+    right: 0;
+    top: 0;
+    bottom: 1vh;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+
     font-size: 1vw;
-    text-align: left;
-    padding-left: 16vw;
 }
