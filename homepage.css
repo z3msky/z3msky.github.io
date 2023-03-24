@@ -84,62 +84,58 @@ hr {
     overflow: hidden;
 }
 
-.sidebar-logo-mobile, .sidebar-nav-mobile { display: none;}
-/* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){ .mobileShow { display: inline;}}
-
-.sidebar-logo-desktop, .sidebar-nav-desktop { display: inline;}
-/* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px){  .mobileHide { display: none;}}
-
 .sidebar-logo-mobile, .sidebar-logo-desktop {
-
     position: absolute;
 
     top: 0.5vh;
     left: 0.5vh;
     right: 0.5vh;
-    
+
 }
 
 .sidebar-logo-mobile {
+    display: none;
     height: 99vh;
 }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .sidebar-logo-mobile { display: inline;}}
 
 .sidebar-logo-desktop {
+    display: inline;
     height: 33vh;
 }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){  .sidebar-logo-desktop { display: none;}}
 
 .sidebar-nav-mobile, .sidebar-nav-desktop {
     position: absolute;
-
     left: 0.5vh;
     right: 0.5vh;
-
     font-size: 1vh;
-
     padding-left: 2vw;
-    text-align: left;
-}
-
-.sidebar-nav-desktop {
-    text-align: left;
-    
-    top: 38vw;
     background-color: lightgray;
 }
 
+.sidebar-nav-desktop {
+    display: inline;
+    text-align: left;
+    top: 38vw;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){  .sidebar-nav-desktop { display: none;}}
+
 .sidebar-nav-mobile {
+    display: none;
     text-align: center;
     top: 101vw;
     bottom: 0vh;
-
-    background-color: green;
 }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .sidebar-nav-mobile { display: inline;}}
 
 .content {
     padding-left: 15.5vw;
