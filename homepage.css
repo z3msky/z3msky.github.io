@@ -41,28 +41,35 @@ hr {
     width: 50%;
 }
 .fixed-header, .fixed-footer{
-    width: 100%;
     position: fixed;
-    left: 0px;
-    background: lightgray;
     padding: 10px 0;
 
     color: black;
-    text-align: center;
-    font-size: 0.5vw;
+    
 }
 
 .fixed-header{
-    border: 5px inset blue;
-    top: 0px;
-    height: 60px;
-    
-    padding-left: 1%;
+    top: 0vh;
+    left: 0vw;
+    right: 1vw;
+    height: 3vw;
+
+    padding-left: 16vw;
+
+    background-color: white;
+    border: 1px solid lightpink;
+
+    text-align: bottom;
 }
 
 .fixed-footer{
-    height:1vh;
+    text-align: center;
+    font-size: 0.5vw;
+    background: lightgray;
     bottom: 0;
+    left: 0px;
+    width: 100%;
+    height:1vh;
 }
 
 .sidebar-frame {
@@ -92,15 +99,14 @@ hr {
 }
 
 .content {
-    position:fixed;
 
-    left: 15.1vw;
-    right: 0;
-    top: 0;
-    bottom: 1vh;
-
-    padding-left: 1vw;
+    padding-left: 16vw;
     padding-right: 1vw;
 
     font-size: 1vw;
+}
+
+.pdf-reader {
+    width: 100%;
+    height: 80%;
 }
