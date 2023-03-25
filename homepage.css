@@ -1,5 +1,12 @@
 
 body {
+
+    background-color: white;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -30,23 +37,20 @@ hr {
 
 .menu-preview {
     position: fixed;
-
-    top: 35vh;
-    right: 51%;
-    height: 30vh;
-    width: 30vh;
+    top: 30%;
+    right: 48%;
+    height: 40%;
 }
 
 .centered-menu {
+    position: fixed;
     color: black;
     text-align: left;
     font-size: 2vh;
 
-    position: fixed;
-    top: 25%;
-    left: 51%;
-    height: 50%;
-    width: 50%;
+    top: 30%;
+    left: 48%;
+    height: 40%
 }
 .fixed-header, .fixed-footer{
     position: fixed;
@@ -119,16 +123,18 @@ and (max-device-width : 480px){  .sidebar-logo-desktop { display: none;}}
 
 .sidebar-nav-mobile, .sidebar-nav-desktop {
     position: absolute;
-    background-color: lightblue;
+
     left: 0.5vh;
     right: 0.5vh;
     font-size: 1vh;
     padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .sidebar-nav-desktop {
     display: inline;
-    text-align: left;
+    
+    text-align: right;
     top: 38vw;
 }
 @media only screen
