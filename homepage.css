@@ -1,13 +1,13 @@
 
 body {
 
-    background-color: white;
+        background-color: white;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -24,6 +24,18 @@ a:hover {
 
 a:active {
     color:pink;
+}
+
+h3 {
+    margin-bottom: 0;
+    font-size: 2.5vh;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 1.5vh;
+    font-weight: lighter;
+    color: darkgray;
 }
 
 hr {
@@ -126,7 +138,7 @@ and (max-device-width : 480px){  .sidebar-logo-desktop { display: none;}}
 
     left: 0.5vh;
     right: 0.5vh;
-    font-size: 1vh;
+    font-size: 1.5vh;
     padding-left: 2vw;
     padding-right: 2vw;
 }
@@ -146,6 +158,7 @@ and (max-device-width : 480px){  .sidebar-nav-desktop { display: none;}}
     text-align: center;
     top: 101vw;
     bottom: 0vh;
+    border: 2px inset darkgray
 }
 @media only screen
 and (min-device-width : 320px)
