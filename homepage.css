@@ -5,13 +5,16 @@
 
 body {
 
-        background-color: rgb(255, 255, 255);
+        /*background-color: rgb(255, 255, 255);*/
+        background-color: #15131a;
+        color: white;
 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+        font-family: serif;
 }
 
 a {
@@ -19,15 +22,15 @@ a {
 }
 
 a:link, a:visited {
-    color: red;
+    color: #dd4a4a;
 }
 
 a:hover {
-    color: darkred;
+    color: #ffd8d8;
 }
 
 a:active {
-    color:pink;
+    color:#dd4a4a;
 }
 
 h3 {
@@ -43,7 +46,7 @@ h4 {
 }
 
 hr {
-    color: lightpink;
+    color: rgb(255, 255, 255);
     size: 1px;
 }
 
@@ -94,11 +97,12 @@ hr {
 .fixed-footer{
     text-align: center;
     font-size: 1.5vh;
-    background: lightgray;
+    background: #0e0c11;
     bottom: 0;
     left: 0px;
     width: 100%;
     height:1vh;
+    color: white;
 }
 
 .sidebar-frame {
