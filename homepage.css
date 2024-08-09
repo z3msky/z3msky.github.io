@@ -167,7 +167,6 @@ and (max-device-width : 480px){  .sidebar-nav-desktop { display: none;}}
     text-align: center;
     top: 101vw;
     bottom: 0vh;
-    border: 2px inset darkgray
 }
 @media only screen
 and (min-device-width : 320px)
