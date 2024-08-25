@@ -115,7 +115,7 @@ hr {
     position:fixed;
     top: 0vw;
     left: 0vw;
-    width: 15vw;
+    width: 15%;
     height: 97%;
 
     border: none;
@@ -128,7 +128,6 @@ hr {
     top: 0.5vh;
     left: 0.5vh;
     right: 0.5vh;
-
 }
 
 .sidebar-logo-mobile {
@@ -178,10 +177,9 @@ and (min-device-width : 320px)
 and (max-device-width : 480px){ .sidebar-nav-mobile { display: inline;}}
 
 .content {
-    padding-left: 15.5vw;
-    padding-right: 1vw;
-
-    font-size: 1.8vh;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
+    font-size: 1.5em;
 }
 
 .pdf-reader {
