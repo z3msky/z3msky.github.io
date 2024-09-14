@@ -12,41 +12,45 @@
     <div class="content">
         <h1>3D Graphics Projects</h1>
 
-        <!--Narcissus and Trains-->
-        <hr>
-        <h3>Narcissus and Trains</h3>
-        <h4>2024</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EgyvrU59G8I?si=rMONHtxci72NpOnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>
-            "Narcissus and Trains" is an exploratory project made throughout the VR Game Development course at DePaul which combines 3D Gaussian Splatting with Unity's XR tools to create a surreal space using novel rendering techniques.
-        </p>
-        <p>
-            See the <a href="https://storymaps.arcgis.com/stories/8ee6d876bf384226a754df6f56c8f53b">Story Map</a> for more.
-        </p>
 
-        <!--Searchlight-->
-        <hr>
-        <h3>Searchlight</h3>
-        <h4>2023</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/S8_Qg9JBGlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p>
-            "Searchlight" is a real-time 3D scene programmed in DirectX 11. From models created in Maya, to the scene and graphics API written in C++ and DX11, "Searchlight" is built from the ground up.
-        </p>
-        <p>
-            <b>Lighting</b> - The indoor sections are lit with a warm directional light, and by the three Phong lights associated with the lamp. The lamp casts an even glow on the room with a point light centered on the bulb, and casts two spotlights upwards and downwards
-            to create the illusion of a semi-transparent lampshade casting shadows on its light. The outdoor sections are lit with a cooler directional light that gives the effect of a moonlit night, 
-            as well as a spotlight spilling across the cityscape from the helicopter.
-        </p>
-        <p>
-            <b>Terrain</b> - The outdoor terrain is made up of three graphic objects. Two flat planes make up the city pavement and calm water. Finally, the island visible in the distance is a terrain object generated from a heightmap image.
-        </p>
-        <p>
-            <b>Fog</b> - The terrain objects are rendered with exponential squared fog, implemented in the pixel shader, which simulates atmospheric scattering and fades textured colors by distance using a user-defined fog color and density.
-        </p>
+        <div class="flex-container">
+            <!--Narcissus and Trains-->
+            <div class="flex-item">
+                <h3>Narcissus and Trains</h3>
+                <h4>2024</h4>
+                <iframe class="video" src="https://www.youtube.com/embed/EgyvrU59G8I?si=rMONHtxci72NpOnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    "Narcissus and Trains" is an exploratory project made throughout the VR Game Development course at DePaul which combines 3D Gaussian Splatting with Unity's XR tools to create a surreal space using novel rendering techniques.
+                </p>
+                <p>
+                    See the <a href="https://storymaps.arcgis.com/stories/8ee6d876bf384226a754df6f56c8f53b">Story Map</a> for more.
+                </p>
+            </div>
 
-        <hr>
+            <!--Searchlight-->
+            <div class="flex-item">
+                <h3>Searchlight</h3>
+                <h4>2023</h4>
+                <iframe class="video" src="https://www.youtube.com/embed/S8_Qg9JBGlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>
+                    "Searchlight" is a real-time 3D scene programmed in DirectX 11. From models created in Maya, to the scene and graphics API written in C++ and DX11, "Searchlight" is built from the ground up.
+                </p>
+                <p>
+                    <b>Lighting</b> - The indoor sections are lit with a warm directional light, and by the three Phong lights associated with the lamp. The lamp casts an even glow on the room with a point light centered on the bulb, and casts two spotlights upwards and downwards
+                    to create the illusion of a semi-transparent lampshade casting shadows on its light. The outdoor sections are lit with a cooler directional light that gives the effect of a moonlit night, 
+                    as well as a spotlight spilling across the cityscape from the helicopter.
+                </p>
+                <p>
+                    <b>Terrain</b> - The outdoor terrain is made up of three graphic objects. Two flat planes make up the city pavement and calm water. Finally, the island visible in the distance is a terrain object generated from a heightmap image.
+                </p>
+                <p>
+                    <b>Fog</b> - The terrain objects are rendered with exponential squared fog, implemented in the pixel shader, which simulates atmospheric scattering and fades textured colors by distance using a user-defined fog color and density.
+                </p>
+            </div>
 
-        
+        </div>
+
+        <hr><hr>
     </div>
 
     <div class="fixed-footer">© 2024 Haru Zemsky</div>

@@ -176,10 +176,44 @@ and (max-device-width : 480px){  .sidebar-nav-desktop { display: none;}}
 and (min-device-width : 320px)
 and (max-device-width : 480px){ .sidebar-nav-mobile { display: inline;}}
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-item {
+    padding: 20px;
+    margin: 10px;
+    min-width: 350px;
+    max-width: 700px;
+    outline: #ffffff;
+    outline-style: inset;
+}
+
 .content {
     padding-left: 15.5%;
-    padding-right: 15.5%;
+    padding-right: 5%;
     font-size: 1.5em;
+}
+
+.embed {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.77;
+}
+
+.soundcloud {
+    min-width: 360px;
+    max-width: 1000px;
+    min-height: 400px
 }
 
 .pdf-reader {
